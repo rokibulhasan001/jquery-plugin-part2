@@ -1,0 +1,40 @@
+header{
+	padding: 40px 0;
+	background-color: #ddd;
+}
+.parallax-window {
+    min-height: 700px;
+    background: transparent;
+}
+.demo {
+background: url(../images/jara.jpg);
+background-position: 100%;
+background-size: 100%;
+width: 100%;
+min-height: 100%;
+position: relative!important
+background-size: cover;
+}
+
+.para{
+	font-size: 60px;
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+
+}
+
+.gap{
+	font-size: 60px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+/*#parallax-image{
+	background-image: url(../images/jara.jpg);
+}
+*/
+
+
+
+

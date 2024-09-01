@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jquery</title>
+  <!-- favicon link -->
+  <link rel="icon" href="images/favicon.jpg">
+  <!-- css linl -->
+  <link rel="stylesheet" href="mixcss/bootstrap.css">
+  <link rel="stylesheet" href="mixcss/style.css">
+  <link rel="stylesheet" href="mixcss/media.css">
+</head>
+<body>
+
+
+  <!-- header start -->
+  <header class="fixed-top">
+    <div class="container">
+      <!-- navbar start -->
+      <nav class="navbar navbar-expand-lg c-nav">
+        <div class="container-fluid p-0">
+          <!-- logo -->
+          <a class="navbar-brand" href="index.html">
+            <img class="img-fluid logo" src="images/logo.png" alt="tinyone">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#c-custom" aria-controls="c-custom" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- menu start -->
+          <div class="collapse navbar-collapse menu" id="c-custom">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="animation.html">Slick-Slider</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mixitup.html">Preloader</a>
+              </li>
+                 <li class="nav-item">
+                <a class="nav-link" href="aos.html">Curvtext</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+    </div>
+  </header>
+  <!-- header end -->
+      <!-- preloader start -->
+    <div id="loading">
+      <div id="loading-center">
+        <div id="loading-center-absolute">
+          <div class="object" id="object_one"></div>
+          <div class="object" id="object_two"></div>
+          <div class="object" id="object_three"></div>
+        </div>
+      </div>
+    </div>
+    <!-- preloader end  -->
+
+
+
+  <!-- slider start -->
+  <section class="slider" id="slider">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- carousel start -->
+          <div id="custom-c" class="carousel slide" data-bs-ride="carousel">
+            <!-- carousel indicator -->
+            <div class="carousel-indicators c-ind">
+              <button type="button" data-bs-target="#custom-c" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#custom-c" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#custom-c" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <!-- inner start -->
+            <div class="carousel-inner">
+              <!-- item start -->
+              <div class="carousel-item active" data-bs-interval="10000">
+                <div class="row">
+                  <!-- slider text -->
+                  <div class="col-lg-5">
+                    <div class="s-text">
+                     <h1>Inspire your inspiration</h1>
+                     <h2>Simple to use for your app, products showcase and your inspiration</h2>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+                   </div>
+                   <div class="s-icon">
+                    <ul class="list-inline">
+                      <li class="list-inline-item"><i class="fa-brands fa-apple"></i></li>
+                      <li class="list-inline-item"><i class="fa-brands fa-android"></i></li>
+                      <li class="list-inline-item"><i class="fa-brands fa-windows"></i></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- slider img -->
+                <div class="offset-lg-2 col-lg-5 d-lg-block d-none">
+                  <div class="s-img">
+                    <img class="img-fluid slide-img" src="images/slider.png" alt="tinyone">
+                  </div> 
+                </div>
+              </div>  
+            </div>
+            <!-- item end -->
+            <div class="carousel-item" data-bs-interval="10000">
+              <div class="row">
+                <!-- slider text -->
+                <div class="col-lg-5">
+                  <div class="s-text">
+                   <h1>Inspire your inspiration</h1>
+                   <h2>Simple to use for your app, products showcase and your inspiration</h2>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+                 </div>
+                 <div class="s-icon">
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><i class="fa-brands fa-apple"></i></li>
+                    <li class="list-inline-item"><i class="fa-brands fa-android"></i></li>
+                    <li class="list-inline-item"><i class="fa-brands fa-windows"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- slider img -->
+              <div class="offset-lg-2 col-lg-5 d-lg-block d-none">
+                <div class="s-img">
+                  <img class="img-fluid slide-img" src="images/slider.png" alt="tinyone">
+                </div>
+                
+              </div>
+            </div>  
+          </div>
+          <!-- item end -->
+          <div class="carousel-item" data-bs-interval="10000">
+            <div class="row">
+              <!-- slider text -->
+              <div class="col-lg-5">
+                <div class="s-text">
+                 <h1>Inspire your inspiration</h1>
+                 <h2>Simple to use for your app, products showcase and your inspiration</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+               </div>
+               <div class="s-icon">
+                <ul class="list-inline">
+                  <li class="list-inline-item"><i class="fa-brands fa-apple"></i></li>
+                  <li class="list-inline-item"><i class="fa-brands fa-android"></i></li>
+                  <li class="list-inline-item"><i class="fa-brands fa-windows"></i></li>
+                </ul>
+              </div>
+            </div>
+            <!-- slider img -->
+            <div class="offset-lg-2 col-lg-5 d-lg-block d-none">
+              <div class="s-img">
+                <img class="img-fluid slide-img" src="images/slider.png" alt="tinyone">
+              </div>
+              
+            </div>
+          </div>  
+        </div>
+        <!-- item end -->
+      </div>
+    </div>
+    <!-- carousel end -->
+  </div>
+</div>
+</div>
+</section>
+<!-- slider end -->
+
+  <!-- js link -->
+  <script src="mixjs/jquery.min.js"></script>
+  <script src="vendor4/mix/dist/mixitup.min.js"></script>
+  <script src="mixjs/bootstrap.bundle.min.js"></script>
+  <script src="mixjs/script.js"></script>
+</body>
+</html>
